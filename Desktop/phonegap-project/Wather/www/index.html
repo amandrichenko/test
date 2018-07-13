@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>My test app</title>
+		<script>
+		window.onload=function() {
+		document.getElementById('btnCalc').addEventListener('click', show);
+		}
+		function show () {
+		alert('Works great!');
+		}
+		</script>
+    </head>
+    <body>
+        <script type="text/javascript" src="cordova.js"></script>
+		<h1>My first test mobie app</h1>
+		<label for="inp">input:</label>
+		<input id="testapp" type="number" />
+		<button id="btnCalc">Calc</button>
+		<div id="result"></div>
+		</body>
+</html>
